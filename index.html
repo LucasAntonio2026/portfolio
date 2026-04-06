@@ -7,21 +7,26 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0f172a, #020617);
       color: white;
       margin: 0;
-      padding: 0;
       text-align: center;
     }
 
     header {
-      background: #020617;
-      padding: 30px;
+      padding: 40px 20px;
+    }
+
+    .foto {
+      width: 150px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      margin-bottom: 15px;
     }
 
     h1 {
       color: #38bdf8;
-      margin: 0;
+      margin: 10px 0;
     }
 
     h2 {
@@ -29,29 +34,26 @@
     }
 
     section {
+      max-width: 700px;
+      margin: 20px auto;
       padding: 20px;
-      margin: 20px;
       background: #1e293b;
       border-radius: 10px;
     }
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
     .btn {
       display: inline-block;
-      padding: 10px 20px;
       margin-top: 10px;
+      padding: 10px 20px;
       background: #38bdf8;
       color: black;
       border-radius: 5px;
       font-weight: bold;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
     }
 
     footer {
@@ -65,40 +67,52 @@
 <body>
 
   <header>
+    <img src="ft1.jpg" alt="Lucas Antônio" class="foto">
+
     <h1>Lucas Antônio</h1>
-    <p>Estudante de Sistemas de Informação | Desenvolvedor em formação</p>
+    <p>Desenvolvedor em formação | Suporte Técnico</p>
+
+    <a class="btn" href="mailto:lacf2002@hotmail.com">Entrar em Contato</a>
   </header>
 
   <section>
     <h2>👨‍💻 Sobre Mim</h2>
     <p>
       Sou estudante do 6º período de Sistemas de Informação, com conhecimentos em Java, HTML e suporte técnico.
-      Tenho interesse em atuar tanto na área de desenvolvimento quanto suporte e estou em busca da minha primeira oportunidade de estágio na área de tecnologia.
+      Estou em busca da minha primeira oportunidade de estágio na área de tecnologia.
     </p>
   </section>
 
   <section>
     <h2>🚀 Projetos</h2>
-    <p>✔ Este portfólio online</p>
-    <p>✔ Sistema de cadastro em Java (em desenvolvimento)</p>
+
+    <p><strong>💻 Portfólio Pessoal</strong><br>
+    Site desenvolvido com HTML e CSS para apresentação profissional.</p>
+
+    <p><strong>📋 Sistema de Cadastro (em desenvolvimento)</strong><br>
+    Projeto em Java com foco em lógica de programação.</p>
   </section>
 
   <section>
-    <h2>🛠️ Tecnologias</h2>
-    <p>Java | HTML | CSS | GitHub | Suporte Técnico</p>
+    <h2>🛠️ Habilidades</h2>
+
+    <p>✔ Java (básico)</p>
+    <p>✔ HTML e CSS</p>
+    <p>✔ GitHub</p>
+    <p>✔ Suporte técnico (manutenção e formatação)</p>
   </section>
 
   <section>
     <h2>📞 Contato</h2>
-    <p>Email: seuemail@email.com</p>
+
+    <p>Email: lacf2002@hotmail.com</p>
+
     <p>
-      GitHub: 
+      GitHub:
       <a href="https://github.com/LucasAntonio2026" target="_blank">
         github.com/LucasAntonio2026
       </a>
     </p>
-
-    <a class="btn" href="mailto:seuemail@email.com">Enviar Email</a>
   </section>
 
   <footer>
